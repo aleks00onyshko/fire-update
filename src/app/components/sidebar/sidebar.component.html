@@ -1,0 +1,7 @@
+<mat-spinner *ngIf="fireUpdateStoreFacade.loading$ | async; else content" class="spinner"></mat-spinner>
+
+<mat-selection-list class="records-list" [multiple]="false" (selectionChange)="sidebarItemWasSelected($event.option.value)" #content>
+  <mat-list-option *ngFor="let record of fireUpdateStoreFacade.records$ | async" [value]="record.name">
+    {{ record.name }}
+  </mat-list-option>
+</mat-selection-list>

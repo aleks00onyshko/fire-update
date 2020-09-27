@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.drawer-container {
+  height: 100vh;
+}
+
+.sidebar {
+  width: 300px;
+}

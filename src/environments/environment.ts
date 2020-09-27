@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyAGbmRvjYaProdgNBQhUvrxiKeQ7btQsaE',
+    authDomain: 'risekid-prod.firebaseapp.com',
+    databaseURL: 'https://risekid-prod.firebaseio.com',
+    projectId: 'risekid-prod',
+    storageBucket: 'risekid-prod.appspot.com',
+    messagingSenderId: '758799114160',
+    appId: '1:758799114160:web:c5365c92182255ce410075',
+    measurementId: 'G-2S0XRW4LGC',
+  },
 };
 
 /*
